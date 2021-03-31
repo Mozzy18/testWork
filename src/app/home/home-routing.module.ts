@@ -1,5 +1,5 @@
 
-import { AuthGuardService } from '../shared/AuthGuard.service';
+import { AuthGuardService } from '../shared/guards/AuthGuard.service';
 import { MyCVComponent } from './my-cv/my-cv.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';

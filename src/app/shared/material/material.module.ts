@@ -34,10 +34,7 @@ import {NgModule} from '@angular/core';
 
 
 @NgModule({
-  declarations: [],
-  imports: [
-    
-  ],
+  
   exports: [
     MatCheckboxModule,
     MatButtonModule,

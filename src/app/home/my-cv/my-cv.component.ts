@@ -1,5 +1,4 @@
 import { AuthService } from './../../shared/Auth.service';
-
 import { Component, OnInit } from '@angular/core';
 
 
@@ -11,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MyCVComponent implements OnInit  {
 
-  constructor(private as:AuthService) {
+  constructor(private authServ:AuthService) {
     
    }
 
@@ -19,6 +18,6 @@ export class MyCVComponent implements OnInit  {
     
   }
    logOut(){
-     this.as.logout()
+     this.authServ.logout()
    }
 }
